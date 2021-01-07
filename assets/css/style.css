@@ -1,0 +1,95 @@
+/* navbar */
+    .navbar-brand{
+        font-family: viga;
+        size: 32px;
+    }
+    .navbar{
+    position: relative;
+    z-index: 1;
+    }
+
+/* Jumbotron */
+    .jumbotron{
+        background-image: url(../images/bg-jumbotron.jpg);
+        background-size: cover;
+        height:481px;
+        text-align: center;
+    }
+    .jumbotron .container{
+        position: relative;
+        z-index: 1;
+    }
+
+    .jumbotron::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+    }
+    .jumbotron .display-4{
+        color: white;
+        margin-top: auto;
+        font-weight: 200;
+        font-size: 35px;
+        text-shadow: rgba(0, 0, 0, 0.7);
+        margin-bottom: 30px;
+    }
+    .jumbotron .display-4 span{
+        font-weight: 500;
+    }
+    .maps{
+        margin-top: 35px;
+    }
+    .footer{
+        margin-top: 30px;
+    }
+    .text-footer{
+        text-align: center;
+    }
+    iframe{
+        width: 470px;
+        height: 365px;
+    }
+
+/* DESKTOP VERSION */
+    @media (min-width: 992px) { 
+    	.jumbotron{
+            background-image: url(../images/jumbotron.png);
+            background-size: cover;
+            height: 562px;
+            width: 100%;
+            text-align: center;
+        }
+        .navbar-brand, .nav-link{
+            color: black !important;
+        }
+        .nav-link{
+            margin-right: 10px; 
+        }
+        .nav-link:hover::after{
+            content: '';
+            display: block;
+            border-bottom: 3px solid black;
+            width: 50%;
+            margin: auto;
+            padding-bottom: 5px;
+            margin-bottom: -8px;
+        }
+        .jumbotron{
+            margin-top: auto;
+            height: 500px;
+        }
+        .jumbotron .display-4{
+            font-size: 62px;
+        }
+        iframe{
+        width: 745px;
+        height: 365px;
+        }
+        .text-about{
+            margin-top: 100px;
+        }
+    }
+
