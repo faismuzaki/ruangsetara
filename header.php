@@ -6,7 +6,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Ruang Setara</title>
+    <title>Ruang Setara</title> 
   </head>
   <body>
 
